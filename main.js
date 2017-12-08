@@ -4,7 +4,7 @@ var gamma = document.getElementById("gamma");
 var absolute = document.getElementById("absolute");
 
 
- document.addEventListener("deviceorientation", function (e) {
+window.addEventListener("deviceorientation", function (e) {
    alpha.innerHTML = "Alpha: " + e.alpha;
    beta.innerHTML = "Beta: " + e.beta;
    gamma.innerHTML = "Gamma: " + e.gamma;
