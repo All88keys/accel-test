@@ -26,8 +26,8 @@ var y = c.width/2;
 
 
 setInterval(function () {
-  x+=g/100;
-  y+=b/100;
+  x+=g/10;
+  y+=b/10;
   ctx.clearRect(0,0,c.width,c.height);
   ctx.fillRect(x,y,20,20);
   console.log('fdf');
