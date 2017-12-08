@@ -8,5 +8,5 @@ window.addEventListener("deviceorientation", function (e) {
    alpha.innerHTML = "Alpha: " + Math.round(e.alpha);
    beta.innerHTML = "Beta: " + Math.round(e.beta);
    gamma.innerHTML = "Gamma: " + Math.round(e.gamma);
-   absolute.innerHTML = "Absolute: " + Math.round(e.absolute);
+   absolute.innerHTML = "Absolute: " + e.absolute;
  }, false);
